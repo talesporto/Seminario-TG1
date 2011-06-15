@@ -1,0 +1,61 @@
+\begin{thebibliography}{10}
+
+\bibitem{Bae09}
+Junjik Bae and Collaborators.
+\newblock {\em Incentives and Resource Sharing in Spectrum Commons}.
+\newblock IEEE Transaction on Communications, Northwestern University,
+  Evanston, IL 60202, 2008.
+
+\bibitem{Cordeiro04}
+Carlos Cordeiro and Collaborators.
+\newblock {\em IEEE 802.22: The First Worldwide Wireless Standard based on
+  Cognitive Radios}.
+\newblock Elsevier, Briarcliff Manor, NY 10510, 2004.
+
+\bibitem{Cormen94}
+Thomas~H. Cormen and Collaborators.
+\newblock {\em Introduction to Algorithms}.
+\newblock The MIT press, chapter 36, pages 916-964, 1994.
+
+\bibitem{Kurose2005}
+Keith W.~Ross James F.~Kurose.
+\newblock {\em Redes de Computadores e a Internet}.
+\newblock Pearson - Addison Wesley, chapter 6, 2005.
+
+\bibitem{Jung08}
+Eric Jung and Xin Liu.
+\newblock {\em Opportunistic Spectrum Access in Heterogeneous User
+  Environments}.
+\newblock IEEE Transaction on Communications, University of California, USA,
+  2008.
+
+\bibitem{Stevens94}
+W.~Richard Stevens.
+\newblock {\em TCP/IP Illustrated, Volume 1}.
+\newblock US ed, chapters 1, 3, 1994.
+
+\bibitem{Stevenson09}
+Carl~R. Stevenson and Collaborators.
+\newblock {\em IEEE 802.22: The First Cognitive Radio Wireless Regional Area
+  Network Standard}.
+\newblock IEEE STANDARDS IN COMMUNICATIONS AND NETWORKING, Communications
+  Research Centre, Canada, 2009.
+
+\bibitem{Tanenbaum03}
+Andrew~S. Tanenbaum.
+\newblock {\em Redes de Computadores}.
+\newblock Campus, chapter 4, 2003.
+
+\bibitem{Park97}
+V.D.Park and M.S.Corson.
+\newblock {\em AHighlyAdaptiveDistributedRoutingAl- gorithm for Mobile Wireless
+  Networks}.
+\newblock IEEE Infocom, pages 1405--1413, 1997.
+
+\bibitem{Zimmermann80}
+H.~Zimmermann.
+\newblock {\em The ISO OSI reference model - The ISO model of architecture for
+  open systems interconnection}.
+\newblock IEEE Transaction on Communications, volume 28, pages 425-432, 1980.
+
+\end{thebibliography}
