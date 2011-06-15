@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009/Debian) (format=pdflatex 2011.4.27)  15 JUN 2011 15:49
+This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009/Debian) (format=pdflatex 2011.4.27)  15 JUN 2011 17:04
 entering extended mode
  %&-line parsing enabled.
 **presentation.tex
@@ -1054,6 +1054,10 @@ Overfull \hbox (4.42763pt too wide) has occurred while \output is active
 File: figuras/face-recognition.jpg Graphic file (type jpg)
 
 <use figuras/face-recognition.jpg>
+Overfull \vbox (3.76384pt too high) detected at line 128
+ []
+
+
 Overfull \hbox (4.42763pt too wide) has occurred while \output is active
  []\OT1/cmss/m/n/6 Reconhecimento 
  []
@@ -1103,15 +1107,6 @@ Overfull \hbox (4.42763pt too wide) has occurred while \output is active
 [11
 
 ]
-LaTeX Font Info:    Try loading font information for U+msa on input line 171.
- (/usr/share/texmf-texlive/tex/latex/amsfonts/umsa.fd
-File: umsa.fd 2009/06/22 v3.00 AMS symbols A
-)
-LaTeX Font Info:    Try loading font information for U+msb on input line 171.
-
-(/usr/share/texmf-texlive/tex/latex/amsfonts/umsb.fd
-File: umsb.fd 2009/06/22 v3.00 AMS symbols B
-)
 Overfull \hbox (4.42763pt too wide) has occurred while \output is active
  []\OT1/cmss/m/n/6 Reconhecimento 
  []
@@ -1174,22 +1169,21 @@ Overfull \hbox (4.42763pt too wide) has occurred while \output is active
 
 [20
 
-] (bin/presentation.bbl)
+]
 Overfull \hbox (4.42763pt too wide) has occurred while \output is active
  []\OT1/cmss/m/n/6 Reconhecimento 
  []
 
 [21
 
- </usr/share/texmf/tex/latex/beamer/base/art/beamericonarticle.pdf>]
+] (bin/presentation.bbl)
 Overfull \hbox (4.42763pt too wide) has occurred while \output is active
  []\OT1/cmss/m/n/6 Reconhecimento 
  []
 
 [22
 
-
-]
+ </usr/share/texmf/tex/latex/beamer/base/art/beamericonarticle.pdf>]
 Overfull \hbox (4.42763pt too wide) has occurred while \output is active
  []\OT1/cmss/m/n/6 Reconhecimento 
  []
@@ -1212,6 +1206,14 @@ Overfull \hbox (4.42763pt too wide) has occurred while \output is active
 
 [25
 
+
+]
+Overfull \hbox (4.42763pt too wide) has occurred while \output is active
+ []\OT1/cmss/m/n/6 Reconhecimento 
+ []
+
+[26
+
 ]
 \tf@nav=\write5
 \openout5 = `presentation.nav'.
@@ -1229,23 +1231,37 @@ LaTeX Font Warning: Size substitutions with differences
 
  ) 
 Here is how much of TeX's memory you used:
- 13530 strings out of 495041
- 239975 string characters out of 1181897
+ 13473 strings out of 495041
+ 239053 string characters out of 1181897
  323195 words of memory out of 3000000
- 16260 multiletter control sequences out of 15000+50000
- 14220 words of font info for 53 fonts, out of 3000000 for 9000
+ 16215 multiletter control sequences out of 15000+50000
+ 6713 words of font info for 24 fonts, out of 3000000 for 9000
  30 hyphenation exceptions out of 8191
  45i,16n,65p,346b,636s stack positions out of 5000i,500n,10000p,200000b,50000s
-</usr/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmss10.pfb></usr/sha
-re/texmf-texlive/fonts/type1/public/amsfonts/cm/cmss12.pfb></usr/share/texmf-te
-xlive/fonts/type1/public/amsfonts/cm/cmss8.pfb></usr/share/texmf-texlive/fonts/
-type1/public/amsfonts/cm/cmss9.pfb></usr/share/texmf-texlive/fonts/type1/public
-/amsfonts/cm/cmssbx10.pfb></usr/share/texmf-texlive/fonts/type1/public/amsfonts
-/cm/cmssi10.pfb></usr/share/texmf-texlive/fonts/type1/public/amsfonts/symbols/m
-sam10.pfb>
-Output written on bin/presentation.pdf (25 pages, 375142 bytes).
+pdfTeX warning (dest): name{Outline0.4.5.20} has been referenced but does not
+ exist, replaced by a fixed one
+
+pdfTeX warning (dest): name{Outline0.4.4.15} has been referenced but does not e
+xist, replaced by a fixed one
+
+pdfTeX warning (dest): name{Outline0.4.3.14} has been referenced but does not e
+xist, replaced by a fixed one
+
+pdfTeX warning (dest): name{Outline0.4.2.13} has been referenced but does not e
+xist, replaced by a fixed one
+
+pdfTeX warning (dest): name{Outline0.4.1.12} has been referenced but does not e
+xist, replaced by a fixed one
+
+</usr/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmss10.pfb></usr/share
+/texmf-texlive/fonts/type1/public/amsfonts/cm/cmss12.pfb></usr/share/texmf-texl
+ive/fonts/type1/public/amsfonts/cm/cmss8.pfb></usr/share/texmf-texlive/fonts/ty
+pe1/public/amsfonts/cm/cmss9.pfb></usr/share/texmf-texlive/fonts/type1/public/a
+msfonts/cm/cmssbx10.pfb></usr/share/texmf-texlive/fonts/type1/public/amsfonts/c
+m/cmssi10.pfb>
+Output written on bin/presentation.pdf (26 pages, 374965 bytes).
 PDF statistics:
- 1082 PDF objects out of 1200 (max. 8388607)
- 75 named destinations out of 1000 (max. 500000)
+ 1121 PDF objects out of 1200 (max. 8388607)
+ 82 named destinations out of 1000 (max. 500000)
  179 words of extra memory for PDF output out of 10000 (max. 10000000)
 

@@ -124,7 +124,12 @@
 	\centering \includegraphics[scale=0.4]{figuras/face-recognition.jpg}
     	\caption{Exemplo de reconhecimento facial}
     	\label{reconhecimento_facial}
-    \end{figure}
+    \end{figure}-
+\end{frame}
+
+\begin{frame}
+    \frametitle{Localização}
+   
 \end{frame}
 
 % ------------- Problema -------------
@@ -133,20 +138,22 @@
     \frametitle{Problema}
     Reconhecer em tempo real os usuários presentes no SmartSpace e rastrear-los durante a sua permanência. \\
 	\begin{itemize}
-      		\pause \item Deve ser ter um índice de confiança mínimo de --095\% no reconhecimento. \\
+      		\pause \item Deve se ter um índice de confiança mínimo de 95\% no reconhecimento. \\
 		\pause \item Os usuários iram se identificar(cadastrar) somente na primeira vez que entrar no SmarSpace. \\
     		\pause \item O processo recolherá informações de contexto do usuário e disponibilizará para o middleware chamado \it{UnBiquitous}.
 	\end{itemize}
 \end{frame}
 
+% ------------- Justificativa -------------
 \section{Justificativa} 
 \begin{frame}
     \frametitle{Justificativa}
     \begin{itemize}
-      \item Aumento no rendimento dos dipositivos, já que haverá economia de
-      energia
-      \item Diminui-se os custos, já que pode-se tirar o elemento centralizador
-      da infraestrutura.
+      \item Informações de contexto são importantes para definir ajustes finos nos componentes do ambiente.
+	    \begin{itemize}
+		\item Perfil
+		\item Localização
+	    \end{itemize}
     \end{itemize}
 \end{frame}
 
@@ -160,14 +167,12 @@
         \item Qual a metodologia?
     \end{itemize}
 \end{frame}
-% ------------- SOBRE O TRABALHO -------------
 
 
 \subsection{Problema}
 \begin{frame}
     \frametitle{Problema}
-    Escolher um grupo $n$ dado um conjunto $N$ de nós, em que ($n$ $\leqslant$
-    $N$), de modo que este subgrupo possa executar uma determinada ação num determinado momento.
+
 \end{frame}
 
 
@@ -175,16 +180,13 @@
 \begin{frame}
     \frametitle{Hipóteses}
     \begin{itemize}
-      \item É possível encontrar uma política de seleção que seja rápida e
-      maximize a economia de energia, sem prejudicar a justiça e a execução da
-      ação(por exemplo, transmissão de dados).
+      \item Criaremos um sistema que reconhece e rastreia os usuários presentes no SmartSpace usando o Kinect, OpenNI e OpenCV.
+
       \item Cenário:
         \begin{itemize}
-            \item Tem-se $N$ nós
-            \item Temos um subgrupo de $n$ nós que podem executar determinada
-            ação num determinado tempo
-            \item Este grupo não é necessariamente único
-            \item Sujeito a problemas de identificação dos nós
+            \item Espaço bem definido.
+            \item Fluxo médio de usuários.
+            \item Ambiente real com movéis, eletrônicos e outros.
         \end{itemize} 
     \end{itemize}
 \end{frame}
@@ -196,13 +198,11 @@
     \begin{itemize}
       \item \textbf{Objetivo Geral}
         \begin{itemize}
-          \item Analisar os métodos existente e propor uma solução de política
-          eficiente
+          \item Analisar os métodos existente e propor uma solução eficiente para reconhecimento e localização de usuários dentro de um SmartSpace.
         \end{itemize}
       \item \textbf{Objetivo Específico}
         \begin{itemize}
-          \item Propor uma solução eficiente e validá-la através de um simulador
-          que será desenvolvido.
+          \item Propor uma solução eficiente para reconhecer, localizar e rastrear os usuários dentro de um SmartSpace em tempo real e com índice de confiança de 95\%.
         \end{itemize}
       \item \textbf{Resultados Esperados}
         \begin{itemize}
