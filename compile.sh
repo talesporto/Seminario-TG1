@@ -1,3 +1,4 @@
-pdflatex -output-directory ./bin src/presentation.tex
-gnome-open output/presentation.pdf
-
+pdflatex -output-directory bin presentation.tex
+#bibtex bin/presentation
+#pdflatex -output-directory bin presentation.tex
+gnome-open bin/presentation.pdf

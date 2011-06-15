@@ -12,7 +12,7 @@
 
 \mode<presentation>
 {
-    \usetheme{Boadilla}
+    \usetheme{PaloAlto}
     
     \setbeamercovered{transparent}
 }
@@ -23,8 +23,7 @@
 
 % - Use the \inst{?} command only if the authors have different
 %   affiliation.
-\author{Tales Mundim Andrade Porto}
-\author{Danilo Ávila Monte Christo}
+\author{Tales Porto e Danilo Ávila}
 %\author{\inst{1}}
 
 % - Use the \inst command only if there are several affiliations.
@@ -81,72 +80,66 @@
 
 % ------------- SUMARIO -------------
 \begin{frame}
-\frametitle{Sumário}
-\tableofcontents
-% You might wish to add the option [pausesections]
+	\frametitle{Sumário}
+	\tableofcontents
 \end{frame}
-% ------------- SUMARIO -------------
 
 
+% ------------- Introdução -------------
 \section{Introdução}
 
-% ------------- X -------------
+% ------------- Contexto -------------
 \subsection{Contexto}
+
 \begin{frame}
-    \frametitle{Redes sem fio no dia a dia}
-    Redes sem fio são amplamente utilizadas no dia a dia.
-    
+    \frametitle{Computação Ubíqua}
+
+	\begin{itemize}
+  		\item Tem como objetivo tornar a interação pessoa-máquina invisível, ou seja, integrar a informática com as ações e comportamentos naturais das pessoas.
+	\end{itemize}
+
     \begin{figure}[h]
-    \centering \includegraphics[scale=0.6]{img/wireless_dia_a_dia.jpg}
-    \caption{Redes sem fio no dia a dia}
-    \label{wireless_dia_a_dia} 
+    	\centering \includegraphics[scale=0.9]{figuras/ubiquitous.gif}
+    	\caption{Esquema de computação ubíqua}
+	\label{esquema_computacao_ubiqua} 
     \end{figure}
 \end{frame}
 
 \begin{frame}
-    \frametitle{Rede sem fio residencial}
+    \frametitle{SmartSpace}
+
+    SmartSpaces são espaços onde a computação ubíqua acontece em sua quase totalidade.
     
     \begin{figure}[h]
-    \centering \includegraphics[scale=0.6]{img/wireless_network.jpg}
-    \caption{Exemplo de rede sem fio residencial}
-    \label{wireless_residencial} 
+    	\centering \includegraphics[scale=0.35]{figuras/smartSpace.jpg}
+    	\caption{Smart Space}
+    	\label{smart_space} 
     \end{figure}
 \end{frame}
 
 \begin{frame}
-    \frametitle{Rede Ad-Hoc}
+    \frametitle{Reconhecimento Facial}
     
     \begin{figure}[h]
-    \centering \includegraphics[scale=0.4]{img/adhoc.jpg}
-    \caption{Exemplo de rede sem fio ad-hoc}
-    \label{wireless_ad_hoc}
+	\centering \includegraphics[scale=0.4]{figuras/face-recognition.jpg}
+    	\caption{Exemplo de reconhecimento facial}
+    	\label{reconhecimento_facial}
     \end{figure}
 \end{frame}
 
-\begin{frame}
-    \frametitle{Rede Ad-Hoc}
-    
-    \begin{figure}[h]
-    \centering \includegraphics[scale=0.9]{img/adhoc_militar.jpg}
-    \caption{Uso militar em áreas sem infra-estrutura}
-    \label{adhoc_militar} 
-    \end{figure}
-\end{frame}
-% ------------- C -------------
-
-
+% ------------- Problema -------------
 \section{Problema}
 \begin{frame}
     \frametitle{Problema}
-    \pause Escolher um grupo $n$ dado um conjunto $N$ de nós, em que ($n$
-    $\leqslant$ $N$), de modo que este subgrupo possa executar uma determinada ação num
-    determinado momento.\\
-    \pause Esta seleção deve ser feita de maneira eficiente!\\
-    \pause O que quer se dizer por eficiente?\\
-    \pause Seleção rápida, seleção justa, economiza de energia!
+    Reconhecer em tempo real os usuários presentes no SmartSpace e rastrear-los durante a sua permanência. \\
+	\begin{itemize}
+      		\pause \item Deve ser ter um índice de confiança mínimo de --095\% no reconhecimento. \\
+		\pause \item Os usuários iram se identificar(cadastrar) somente na primeira vez que entrar no SmarSpace. \\
+    		\pause \item O processo recolherá informações de contexto do usuário e disponibilizará para o middleware chamado \it{UnBiquitous}.
+	\end{itemize}
 \end{frame}
 
-\section{Justificativa}
+\section{Justificativa} 
 \begin{frame}
     \frametitle{Justificativa}
     \begin{itemize}
