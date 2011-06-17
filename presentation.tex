@@ -132,6 +132,17 @@
    
 \end{frame}
 
+
+\begin{frame}
+    \frametitle{Kinect}
+    
+    \begin{figure}[h]
+    \centering \includegraphics[scale=0.4]{figuras/kinect_info.jpg}
+        \caption{Sensor Kinect da Microsoft utilizado no XBOX 360}
+        \label{reconhecimento_facial}
+    \end{figure}
+\end{frame}
+
 % ------------- Problema -------------
 \section{Problema}
 \begin{frame}
@@ -180,7 +191,7 @@
 \begin{frame}
     \frametitle{Hipóteses}
     \begin{itemize}
-      \item Criaremos um sistema que reconhece e rastreia os usuários presentes no SmartSpace usando o Kinect, OpenNI e OpenCV.
+      \item Criaremos um sistema que reconhece e rastreia os usuários presentes no SmartSpace utilizando o Kinect, OpenNI e OpenCV.
 
       \item Cenário:
         \begin{itemize}
@@ -206,13 +217,9 @@
         \end{itemize}
       \item \textbf{Resultados Esperados}
         \begin{itemize}
-          \item Proposta de política que:
-            \begin{itemize}
-              \item seja maximizado a economia de energia
-              \item seja rápida
-              \item seja justa
-              \item seja maximizado a vazão de dados
-            \end{itemize}
+          \item que seja rápido
+          \item que seja confiável
+          \item que seja robusto
         \end{itemize}
     \end{itemize}
 \end{frame}
@@ -224,10 +231,10 @@
     \begin{itemize}
     \pause \item Levantamento do estado da arte
         \begin{itemize}
-            \item Identificação de problemas e pontos em aberto
+            \item Identificação das limitações dos métodos utilizados e dos sensores (Kinect).
         \end{itemize}
     \pause \item Proposta de solução
-    \pause \item Desenvolvimento de um simulador
+    \pause \item Implementação.
     \pause \item Validar solução
         \begin{itemize}
             \item Utilizando o simulador, executar coleta de dados para análise
@@ -243,10 +250,10 @@
     \frametitle{Cronograma}
     \begin{itemize}
         \item Julho: Levantamento do estado da arte
-        \item Agosto: Levantamento do estado da arte
-        \item Setembro: Desenvolvimento do simulador
-        \item Outubro: Término do desenvolvimento e coleta de dados
-        \item Novembro: Análise de resultados e aspectos finais
+        \item Agosto: Implementação
+        \item Setembro: Implementação
+        \item Outubro: Término da implementação, \textit{Refactoring} e Testes.
+        \item Novembro: Análise de resultados e preparação para apresentação
         \item Dezembro: Apresentação
     \end{itemize}
 \end{frame}
