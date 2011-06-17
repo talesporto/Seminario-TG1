@@ -5,9 +5,8 @@
 \beamer@sectionintoc {2}{Problema}{8}{0}{2}
 \beamer@sectionintoc {3}{Justificativa}{12}{0}{3}
 \beamer@sectionintoc {4}{Sobre o Trabalho}{13}{0}{4}
-\beamer@subsectionintoc {4}{1}{Problema}{14}{0}{4}
-\beamer@subsectionintoc {4}{2}{Hip\IeC {\'o}tese}{15}{0}{4}
-\beamer@subsectionintoc {4}{3}{Objetivos e Resultados Esperados}{16}{0}{4}
-\beamer@subsectionintoc {4}{4}{Metodologia}{17}{0}{4}
-\beamer@subsectionintoc {4}{5}{Cronograma}{22}{0}{4}
-\beamer@sectionintoc {5}{Refer\IeC {\^e}ncias}{23}{0}{5}
+\beamer@subsectionintoc {4}{1}{Hip\IeC {\'o}tese}{14}{0}{4}
+\beamer@subsectionintoc {4}{2}{Objetivos e Resultados Esperados}{15}{0}{4}
+\beamer@subsectionintoc {4}{3}{Metodologia}{16}{0}{4}
+\beamer@subsectionintoc {4}{4}{Cronograma}{21}{0}{4}
+\beamer@sectionintoc {5}{Refer\IeC {\^e}ncias}{22}{0}{5}

@@ -23,7 +23,7 @@
 
 % - Use the \inst{?} command only if the authors have different
 %   affiliation.
-\author{Tales Porto e Danilo Ávila}
+\author{Danilo Ávila e  Tales Porto}
 %\author{\inst{1}}
 
 % - Use the \inst command only if there are several affiliations.
@@ -31,8 +31,8 @@
 \institute[UnB]
 {
     %\inst{1}%
-    Instituto de Ciências Exatas\\
     Departamento de Ciência da Computação\\
+    Instituto de Ciências Exatas\\
     Universidade de Brasília
 }
 
@@ -151,7 +151,7 @@
 	\begin{itemize}
       		\pause \item Deve se ter um índice de confiança mínimo de 95\% no reconhecimento. \\
 		\pause \item Os usuários iram se identificar(cadastrar) somente na primeira vez que entrar no SmarSpace. \\
-    		\pause \item O processo recolherá informações de contexto do usuário e disponibilizará para o middleware chamado \it{UnBiquitous}.
+    		\pause \item O processo recolherá informações de contexto (identidade e localização) dos usuários e as disponibilizará para o middleware chamado \it{UnBiquitous}.
 	\end{itemize}
 \end{frame}
 
@@ -160,7 +160,9 @@
 \begin{frame}
     \frametitle{Justificativa}
     \begin{itemize}
-      \item Informações de contexto são importantes para definir ajustes finos nos componentes do ambiente.
+      \item Para conseguir uma boa interação entre as diversas peças que compõem o SmartSpace é necessário que se tenha a disposição informações de contexto;
+      \item Informações de contexto são importantes para definir ajustes finos nos componentes do ambiente;
+      \item Para isso é necessária informações de contexto como:
 	    \begin{itemize}
 		\item Perfil
 		\item Localização
@@ -178,14 +180,6 @@
         \item Qual a metodologia?
     \end{itemize}
 \end{frame}
-
-
-\subsection{Problema}
-\begin{frame}
-    \frametitle{Problema}
-
-\end{frame}
-
 
 \subsection{Hipótese}
 \begin{frame}
@@ -209,11 +203,11 @@
     \begin{itemize}
       \item \textbf{Objetivo Geral}
         \begin{itemize}
-          \item Analisar os métodos existente e propor uma solução eficiente para reconhecimento e localização de usuários dentro de um SmartSpace.
+          \item Analisar os métodos existente e propor uma solução eficiente para reconhecimento e localização de usuários dentro de um SmartSpace em tempo real.
         \end{itemize}
       \item \textbf{Objetivo Específico}
         \begin{itemize}
-          \item Propor uma solução eficiente para reconhecer, localizar e rastrear os usuários dentro de um SmartSpace em tempo real e com índice de confiança de 95\%.
+            \item Através de imagens de cor e de profunidade obtidas com o Kinect, iremos construir um sistema eficiente de reconhecimento facial e localização de usuários em tempo real com índice de confiança de pelo menos 95\%.
         \end{itemize}
       \item \textbf{Resultados Esperados}
         \begin{itemize}
@@ -261,7 +255,7 @@
 
 % ------------- REFERENCIAS -------------
 
-\nocite{Stevenson09,Cordeiro04,Cormen94,Kurose2005,Stevens94,Tanenbaum03,Zimmermann80,Bae09,Jung08,Park97}
+\nocite{fabriciobuzzeto,weiser2,saocarlos,yang,hewitt,violajones}
 
 \section{Referências}
 
