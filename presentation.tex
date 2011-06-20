@@ -151,12 +151,9 @@
 \section{Problema}
 \begin{frame}
     \frametitle{Problema}
-    Reconhecer em tempo real os usuários presentes no SmartSpace e rastrear-los durante a sua permanência. \\
-	\begin{itemize}
-      		\pause \item Deve se ter um índice de confiança mínimo de 95\% no reconhecimento. \\
-		\pause \item Os usuários iram se identificar(cadastrar) somente na primeira vez que entrar no SmarSpace. \\
-    		\pause \item O processo recolherá informações de contexto (identidade e localização) dos usuários e as disponibilizará para o middleware chamado \it{UnBiquitous}.
-	\end{itemize}
+    \begin{itemize}
+      \item Como fornecer para o \it{UnBiquitous} quem está presente no \it{SmartSpace} e onde este usuário está?
+    \end{itemize}
 \end{frame}
 
 % ------------- Justificativa -------------
@@ -175,7 +172,7 @@
 \end{frame}
 
 
-% ------------- SOBRE O TRABALHO -------------
+% ------------- Sobre o trabalho -------------
 \section{Sobre o Trabalho}
 \begin{frame}
     \frametitle{Sobre o Trabalho}
@@ -185,49 +182,41 @@
     \end{itemize}
 \end{frame}
 
+% ------------- Hipotese -------------
 \subsection{Hipótese}
 \begin{frame}
     \frametitle{Hipóteses}
     \begin{itemize}
-      \item Criaremos um sistema que reconhece e rastreia os usuários presentes no SmartSpace utilizando o Kinect, OpenNI e OpenCV.
-
-      \item Cenário:
-        \begin{itemize}
-            \item Espaço bem definido.
-            \item Fluxo médio de usuários.
-            \item Ambiente real com movéis, eletrônicos e outros.
-        \end{itemize} 
+      \item Que o sistema desenvolvido para o reconhecimento e localização de usuários em um SmartSpace seja robusto, confiável e rápido.
+      \begin{itemize}
+        \item Que \it{Eigenfaces}, método de reconhecimento facial que o \it{OpenCV} implementa, seja suficientemente confiável.
+        \item Que o rastreamento fornecido pelo \it{OpenNI} seja suficientemente robusto para a dinâmicidade do ambiente.
+      \end{itemize}
     \end{itemize}
 \end{frame}
 
-
-\subsection{Objetivos e Resultados Esperados}
+% ------------- Objetivos -------------
+\subsection{Objetivos}
 \begin{frame}
-    \frametitle{Objetivos e Resultados Esperados}
+    \frametitle{Objetivos}
     \begin{itemize}
       \item \textbf{Objetivo Geral}
         \begin{itemize}
-          \item Analisar os métodos existente e propor uma solução eficiente para reconhecimento e localização de usuários dentro de um SmartSpace em tempo real.
+          \item Propor um sistema eficiente para reconhecimento e localização de usuários dentro de um SmartSpace em tempo real.
         \end{itemize}
       \item \textbf{Objetivo Específico}
         \begin{itemize}
-            \item Através de imagens de cor e de profunidade obtidas com o Kinect, iremos construir um sistema eficiente de reconhecimento facial e localização de usuários em tempo real com índice de confiança de pelo menos 95\%.
-        \end{itemize}
-      \item \textbf{Resultados Esperados}
-        \begin{itemize}
-          \item que seja rápido
-          \item que seja confiável
-          \item que seja robusto
+            \item Implementar um sistema eficiente que através de imagens de cor e de profunidade providas pelo Kinect e utilizando as bibliotecas, \it{OpenCV} e \it{OpenNI}, reconheça os usuários e rastrei-o durante a sua permanência no \it{SmartSpace}.
         \end{itemize}
     \end{itemize}
 \end{frame}
 
-
+% ------------- Metodologia -------------
 \subsection{Metodologia}
 \begin{frame}
     \frametitle{Metodologia}
     \begin{itemize}
-    \pause \item Levantamento do estado da arte
+    \item Levantamento do estado da arte
         \begin{itemize}
             \item Identificação das limitações dos métodos utilizados e dos sensores (Kinect).
         \end{itemize}
@@ -240,16 +229,25 @@
     \end{itemize}
 \end{frame}
 
+% ------------- Resultados Esperados -------------
+\subsection{Resultados Esperados}
+\begin{frame}
+    \frametitle{Resultados Esperados}
+    \begin{itemize}
+        \item Que o sistema proposto seja implementado e atinja o índice de confiança mínimo de 95\%.
+    \end{itemize}
+\end{frame}
 
+% ------------- Cronograma -------------
 \subsection{Cronograma}
 \begin{frame}
     \frametitle{Cronograma}
     \begin{itemize}
         \item Julho: Levantamento do estado da arte
         \item Agosto: Implementação
-        \item Setembro: Implementação
-        \item Outubro: Término da implementação, \textit{Refactoring} e Testes.
-        \item Novembro: Análise de resultados e preparação para apresentação
+        \item Setembro: Implementação, testes e documentação.
+        \item Outubro: Término da implementação, documentação, conclusão da monografia, \textit{refactoring} e testes.
+        \item Novembro: Análise de resultados, conclusão da monografia e preparação para apresentação
         \item Dezembro: Apresentação
     \end{itemize}
 \end{frame}
