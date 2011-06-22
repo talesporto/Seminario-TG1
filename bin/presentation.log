@@ -1071,8 +1071,8 @@ Overfull \hbox (4.42763pt too wide) has occurred while \output is active
 
 [6
 
- <./figuras/sampleOpenNI.png (PNG copy)>]
-<figuras/kinect_info.jpg, id=320, 765.86125pt x 428.60126pt>
+ <./figuras/sampleOpenNI.png (PNG copy)>]copy)>]
+<figuras/kinect_info.jpg, id=218, 765.86125pt x 428.60126pt>
 File: figuras/kinect_info.jpg Graphic file (type jpg)
 
 <use figuras/kinect_info.jpg>
@@ -1173,65 +1173,70 @@ Overfull \hbox (4.42763pt too wide) has occurred while \output is active
 
 [18
 
-] (bin/presentation.bbl
-Overfull \hbox (15.47075pt too wide) in paragraph at lines 13--16
-\OT1/cmss/m/n/10.95 http://monografias.cic.unb.br/dspace/handle/123456789/257, 
-
- []
-
-)
+]
 Overfull \hbox (4.42763pt too wide) has occurred while \output is active
  []\OT1/cmss/m/n/6 Reconhecimento 
  []
 
 [19
 
- </usr/share/texmf/tex/latex/beamer/base/art/beamericonarticle.pdf>]
+]
 Overfull \hbox (4.42763pt too wide) has occurred while \output is active
  []\OT1/cmss/m/n/6 Reconhecimento 
  []
 
 [20
 
+])
+Runaway argument?
+\let \AtEndDocument \@firstofone \@enddocumenthook \@checkend {docume\ETC.
+! File ended while scanning use of \beamer@collect@@body.
+<inserted text> 
+                \par 
+<*> presentation.tex
+                    
+? 
 
-]
-Overfull \hbox (4.42763pt too wide) has occurred while \output is active
- []\OT1/cmss/m/n/6 Reconhecimento 
- []
+*r
 
-[21
+*r
 
-]
-\tf@nav=\write5
-\openout5 = `presentation.nav'.
+*^^[[5~r
 
-\tf@toc=\write6
-\openout6 = `presentation.toc'.
+! Package inputenc Error: Keyboard character used is undefined
+(inputenc)                in inputencoding `utf8'.
 
-\tf@snm=\write7
-\openout7 = `presentation.snm'.
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+<*> ^^[
+       [5~r
+? 
+! Interruption.
+\GenericError  ...                                
+                                                  \endgroup 
+<*> ^^[
+       [5~r
+? 
+! Emergency stop.
+\GenericError  ...                                
+                                                  \endgroup 
+<*> ^^[
+       [5~r
+End of file on the terminal!
 
- (bin/presentation.aux)
-
-LaTeX Font Warning: Size substitutions with differences
-(Font)              up to 1.0pt have occurred.
-
-
-LaTeX Warning: There were multiply-defined labels.
-
- ) 
+ 
 Here is how much of TeX's memory you used:
- 13431 strings out of 495041
- 238002 string characters out of 1181897
- 323195 words of memory out of 3000000
- 16189 multiletter control sequences out of 15000+50000
- 7069 words of font info for 25 fonts, out of 3000000 for 9000
+ 13201 strings out of 495041
+ 232612 string characters out of 1181897
+ 317195 words of memory out of 3000000
+ 15980 multiletter control sequences out of 15000+50000
+ 6713 words of font info for 24 fonts, out of 3000000 for 9000
  30 hyphenation exceptions out of 8191
- 45i,16n,65p,346b,636s stack positions out of 5000i,500n,10000p,200000b,50000s
-</usr/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmss10.pfb></usr/sha
-re/texmf-texlive/fonts/type1/public/amsfonts/cm/cmss12.pfb></usr/share/texmf-te
-xlive/fonts/type1/public/amsfonts/cm/cmss8.pfb></usr/share/texmf-texlive/fonts/
-type1/public/amsfonts/cm/cmssbx10.pfb></usr/share/texmf-texlive/fonts/type1/pub
+ 45i,16n,59p,346b,549s stack positions out of 5000i,500n,10000p,200000b,50000s
+!  ==> Fatal error occurred, no output PDF file produced!
+xmf-texlive/fonts/type1/pub
 lic/amsfonts/cm/cmssi10.pfb>
 Output written on bin/presentation.pdf (21 pages, 497129 bytes).
 PDF statistics:
