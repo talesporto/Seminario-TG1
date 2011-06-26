@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009/Debian) (format=pdflatex 2011.4.27)  20 JUN 2011 19:51
+This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009/Debian) (format=pdflatex 2011.4.27)  25 JUN 2011 15:26
 entering extended mode
  %&-line parsing enabled.
 **presentation.tex
@@ -1024,7 +1024,7 @@ Overfull \hbox (4.42763pt too wide) has occurred while \output is active
 
 [2
 
-] <figuras/ubiquitous.jpg, id=164, 92.7465pt x 68.8974pt>
+] <figuras/ubiquitous.jpg, id=165, 92.7465pt x 68.8974pt>
 File: figuras/ubiquitous.jpg Graphic file (type jpg)
 
 <use figuras/ubiquitous.jpg>
@@ -1046,7 +1046,7 @@ Overfull \hbox (4.42763pt too wide) has occurred while \output is active
 [4
 
  <./figuras/smartSpace.jpg>]
-<figuras/face-recognition.jpg, id=243, 317.185pt x 422.57875pt>
+<figuras/face-recognition.jpg, id=244, 317.185pt x 422.57875pt>
 File: figuras/face-recognition.jpg Graphic file (type jpg)
 
 <use figuras/face-recognition.jpg>
@@ -1061,7 +1061,7 @@ Overfull \hbox (4.42763pt too wide) has occurred while \output is active
 [5
 
  <./figuras/face-recognition.jpg>]
-<figuras/sampleOpenNI.png, id=282, 730.73pt x 506.89375pt>
+<figuras/sampleOpenNI.png, id=283, 730.73pt x 506.89375pt>
 File: figuras/sampleOpenNI.png Graphic file (type png)
 
 <use figuras/sampleOpenNI.png>
@@ -1071,8 +1071,8 @@ Overfull \hbox (4.42763pt too wide) has occurred while \output is active
 
 [6
 
- <./figuras/sampleOpenNI.png (PNG copy)>]copy)>]
-<figuras/kinect_info.jpg, id=218, 765.86125pt x 428.60126pt>
+ <./figuras/sampleOpenNI.png (PNG copy)>]
+<figuras/kinect_info.jpg, id=322, 765.86125pt x 428.60126pt>
 File: figuras/kinect_info.jpg Graphic file (type jpg)
 
 <use figuras/kinect_info.jpg>
@@ -1173,74 +1173,90 @@ Overfull \hbox (4.42763pt too wide) has occurred while \output is active
 
 [18
 
-]
+] (bin/presentation.bbl
+Overfull \hbox (15.47075pt too wide) in paragraph at lines 13--16
+\OT1/cmss/m/n/10.95 http://monografias.cic.unb.br/dspace/handle/123456789/257, 
+
+ []
+
+)
 Overfull \hbox (4.42763pt too wide) has occurred while \output is active
  []\OT1/cmss/m/n/6 Reconhecimento 
  []
 
 [19
 
-]
+ </usr/share/texmf/tex/latex/beamer/base/art/beamericonarticle.pdf>]
 Overfull \hbox (4.42763pt too wide) has occurred while \output is active
  []\OT1/cmss/m/n/6 Reconhecimento 
  []
 
 [20
 
-])
-Runaway argument?
-\let \AtEndDocument \@firstofone \@enddocumenthook \@checkend {docume\ETC.
-! File ended while scanning use of \beamer@collect@@body.
-<inserted text> 
-                \par 
-<*> presentation.tex
-                    
-? 
 
-*r
+]
+Overfull \hbox (4.42763pt too wide) has occurred while \output is active
+ []\OT1/cmss/m/n/6 Reconhecimento 
+ []
 
-*r
+[21
 
-*^^[[5~r
+]
+\tf@nav=\write5
+\openout5 = `presentation.nav'.
 
-! Package inputenc Error: Keyboard character used is undefined
-(inputenc)                in inputencoding `utf8'.
+\tf@toc=\write6
+\openout6 = `presentation.toc'.
 
-See the inputenc package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-<*> ^^[
-       [5~r
-? 
-! Interruption.
-\GenericError  ...                                
-                                                  \endgroup 
-<*> ^^[
-       [5~r
-? 
-! Emergency stop.
-\GenericError  ...                                
-                                                  \endgroup 
-<*> ^^[
-       [5~r
-End of file on the terminal!
+\tf@snm=\write7
+\openout7 = `presentation.snm'.
 
- 
+ (bin/presentation.aux)
+
+LaTeX Font Warning: Size substitutions with differences
+(Font)              up to 1.0pt have occurred.
+
+
+LaTeX Warning: There were multiply-defined labels.
+
+ ) 
 Here is how much of TeX's memory you used:
- 13201 strings out of 495041
- 232612 string characters out of 1181897
- 317195 words of memory out of 3000000
- 15980 multiletter control sequences out of 15000+50000
- 6713 words of font info for 24 fonts, out of 3000000 for 9000
+ 13438 strings out of 495041
+ 238103 string characters out of 1181897
+ 323195 words of memory out of 3000000
+ 16189 multiletter control sequences out of 15000+50000
+ 7069 words of font info for 25 fonts, out of 3000000 for 9000
  30 hyphenation exceptions out of 8191
- 45i,16n,59p,346b,549s stack positions out of 5000i,500n,10000p,200000b,50000s
-!  ==> Fatal error occurred, no output PDF file produced!
-xmf-texlive/fonts/type1/pub
-lic/amsfonts/cm/cmssi10.pfb>
-Output written on bin/presentation.pdf (21 pages, 497129 bytes).
+ 45i,16n,65p,346b,636s stack positions out of 5000i,500n,10000p,200000b,50000s
+pdfTeX warning (dest): name{Navigation22} has been referenced but does not ex
+ist, replaced by a fixed one
+
+pdfTeX warning (dest): name{Outline0.4.5.19} has been referenced but does not e
+xist, replaced by a fixed one
+
+pdfTeX warning (dest): name{Outline0.4.4.18} has been referenced but does not e
+xist, replaced by a fixed one
+
+pdfTeX warning (dest): name{Outline0.4.3.14} has been referenced but does not e
+xist, replaced by a fixed one
+
+pdfTeX warning (dest): name{Outline0.4.2.13} has been referenced but does not e
+xist, replaced by a fixed one
+
+pdfTeX warning (dest): name{Outline0.4.1.12} has been referenced but does not e
+xist, replaced by a fixed one
+
+pdfTeX warning (dest): name{Outline0.1.1.4} has been referenced but does not ex
+ist, replaced by a fixed one
+
+</usr/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmss10.pfb></usr/share
+/texmf-texlive/fonts/type1/public/amsfonts/cm/cmss12.pfb></usr/share/texmf-texl
+ive/fonts/type1/public/amsfonts/cm/cmss8.pfb></usr/share/texmf-texlive/fonts/ty
+pe1/public/amsfonts/cm/cmssbx10.pfb></usr/share/texmf-texlive/fonts/type1/publi
+c/amsfonts/cm/cmssi10.pfb>
+Output written on bin/presentation.pdf (21 pages, 497789 bytes).
 PDF statistics:
- 922 PDF objects out of 1000 (max. 8388607)
- 64 named destinations out of 1000 (max. 500000)
+ 930 PDF objects out of 1000 (max. 8388607)
+ 71 named destinations out of 1000 (max. 500000)
  194 words of extra memory for PDF output out of 10000 (max. 10000000)
 
